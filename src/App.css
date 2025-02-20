@@ -1,0 +1,101 @@
+/* 전체 페이지 스타일 */
+.App {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* 제목 스타일 */
+h1 {
+    font-size: 2rem;
+}
+
+/* 음식점 추가 섹션 */
+input {
+    padding: 10px;
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #2988ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+/* 음식점 리스트 스타일 */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+li {
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 5px;
+    width: 50%;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li:hover {
+    background-color: #f9f9f9;
+}
+
+/* 삭제 버튼 스타일 */
+button.delete {
+    background-color: #f44336;
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.delete:hover {
+    background-color: #d32f2f;
+}
+
+/* 룰렛 회전 애니메이션 */
+.wheel {
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid #2988ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    transition: transform 4s ease-out;
+}
+
+.spin {
+    transform: rotate(720deg);
+}
+
+h3 {
+    color: #2988ff;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
