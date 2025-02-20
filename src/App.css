@@ -1,4 +1,4 @@
-/* 전체 페이지 스타일 */
+
 .App {
     font-family: 'Arial', sans-serif;
     text-align: center;
@@ -7,12 +7,12 @@
     padding: 20px;
 }
 
-/* 제목 스타일 */
+
 h1 {
     font-size: 2rem;
 }
 
-/* 음식점 추가 섹션 */
+
 input {
     padding: 10px;
     font-size: 1rem;
@@ -34,7 +34,7 @@ button {
 }
 
 
-/* 음식점 리스트 스타일 */
+
 ul {
     list-style-type: none;
     padding: 0;
@@ -60,7 +60,7 @@ li:hover {
     background-color: #f9f9f9;
 }
 
-/* 삭제 버튼 스타일 */
+
 button.delete {
     background-color: #f44336;
     padding: 5px 10px;
@@ -74,7 +74,7 @@ button.delete:hover {
     background-color: #d32f2f;
 }
 
-/* 룰렛 회전 애니메이션 */
+
 .wheel {
     margin: 20px auto;
     width: 200px;
